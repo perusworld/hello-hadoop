@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+		<name>hadoop.job.ugi</name>
+		<value>hadoop,hadoop</value>
+	</property>
+	<property>
+		<name>fs.default.name</name>
+		<value>hdfs://192.168.30.133:9000</value>
+	</property>
+	<property>
+		<name>mapred.job.tracker</name>
+		<value>192.168.30.133:9001</value>
+	</property>
+</configuration>
