@@ -44,7 +44,6 @@ public class WordCount {
      */
     public static void main(String[] args) throws Exception {
         Configuration configuration = new Configuration();
-        configuration.addResource("hadoop-conf.xml");
         Job job = new Job(configuration);
         job.setJobName("WordCount");
         job.setJarByClass(WordCount.class);
